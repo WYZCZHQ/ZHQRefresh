@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		704D0A881C4DC32F002145CD /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 704D0A841C4DC32F002145CD /* arrow.png */; settings = {ASSET_TAGS = (); }; };
+		704D0A891C4DC32F002145CD /* UIScrollView+pulling.m in Sources */ = {isa = PBXBuildFile; fileRef = 704D0A861C4DC32F002145CD /* UIScrollView+pulling.m */; settings = {ASSET_TAGS = (); }; };
 		706F27EB1C4D342500A07D92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 706F27EA1C4D342500A07D92 /* main.m */; };
 		706F27EE1C4D342500A07D92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 706F27ED1C4D342500A07D92 /* AppDelegate.m */; };
 		706F27F11C4D342500A07D92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 706F27F01C4D342500A07D92 /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		704D0A841C4DC32F002145CD /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		704D0A851C4DC32F002145CD /* UIScrollView+pulling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+pulling.h"; sourceTree = "<group>"; };
+		704D0A861C4DC32F002145CD /* UIScrollView+pulling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+pulling.m"; sourceTree = "<group>"; };
+		704D0A871C4DC32F002145CD /* ZHQRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHQRefresh.h; sourceTree = "<group>"; };
 		706F27E61C4D342500A07D92 /* ZHQRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHQRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		706F27EA1C4D342500A07D92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		706F27EC1C4D342500A07D92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		704D0A831C4DC32F002145CD /* ZHQRerfresh */ = {
+			isa = PBXGroup;
+			children = (
+				704D0A841C4DC32F002145CD /* arrow.png */,
+				704D0A851C4DC32F002145CD /* UIScrollView+pulling.h */,
+				704D0A861C4DC32F002145CD /* UIScrollView+pulling.m */,
+				704D0A871C4DC32F002145CD /* ZHQRefresh.h */,
+			);
+			path = ZHQRerfresh;
+			sourceTree = "<group>";
+		};
 		706F27DD1C4D342500A07D92 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +75,7 @@
 		706F27E81C4D342500A07D92 /* ZHQRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				704D0A831C4DC32F002145CD /* ZHQRerfresh */,
 				706F27EC1C4D342500A07D92 /* AppDelegate.h */,
 				706F27ED1C4D342500A07D92 /* AppDelegate.m */,
 				706F27EF1C4D342500A07D92 /* ViewController.h */,
@@ -139,6 +157,7 @@
 				706F27F91C4D342500A07D92 /* LaunchScreen.storyboard in Resources */,
 				706F27F61C4D342500A07D92 /* Assets.xcassets in Resources */,
 				706F27F41C4D342500A07D92 /* Main.storyboard in Resources */,
+				704D0A881C4DC32F002145CD /* arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +171,7 @@
 				706F27F11C4D342500A07D92 /* ViewController.m in Sources */,
 				706F27EE1C4D342500A07D92 /* AppDelegate.m in Sources */,
 				706F27EB1C4D342500A07D92 /* main.m in Sources */,
+				704D0A891C4DC32F002145CD /* UIScrollView+pulling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +318,7 @@
 				706F27FF1C4D342500A07D92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
