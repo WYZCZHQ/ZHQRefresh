@@ -23,7 +23,9 @@
     [self.tableView refreshWithTarget:self andWithAction:@selector(refresh)];
     //增加上拉加载功能
     [self.tableView loadWithTarget:self andWithAction:@selector(load)];
-    
+    self.tableView.backgroundColor=[UIColor colorWithRed:0 green:0 blue:0 alpha:0.1];
+    self.tableView.layer.cornerRadius=20;
+    self.tableView.layer.masksToBounds=YES;
     //注意：refreshWithTarget loadWithTarget
     //endRefreshing endLoading必须在主线程调用，因为里面有ui操作
 }
@@ -39,7 +41,7 @@
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 50;//也可以用10或0
+    return 0;//也可以用10或0
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
