@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "ZHQRefreshConst.h"
 @interface UIScrollView (pulling)
 -(void)refreshWithTarget:(id)_target andWithAction:(SEL)_action;
 -(void)loadWithTarget:(id)_target andWithAction:(SEL)_action;
