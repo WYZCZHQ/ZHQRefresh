@@ -28,6 +28,7 @@
     self.tableView.layer.masksToBounds=YES;
     //注意：refreshWithTarget loadWithTarget
     //endRefreshing endLoading必须在主线程调用，因为里面有ui操作
+    NSLog(@"this is change!!");
 }
 
 - (void)didReceiveMemoryWarning {
